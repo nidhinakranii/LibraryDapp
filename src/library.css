@@ -1,0 +1,134 @@
+body {
+}
+
+.library-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+
+  margin: 20px; /* Add margin from all sides */
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Card background color */
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+.card-content p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.metamask-logo {
+  width: 34px; /* Adjust the width as needed */
+  height: 34px; /* Adjust the height as needed */
+  margin-right: 8px; /* Add some margin between the logo and the text */
+}
+.book-info {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+}
+
+.book-details {
+  margin-left: 20px; /* Add margin between book photo and details */
+  text-align: left; /* Align text to the left */
+}
+
+.extra-details {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly between items */
+  margin-top: 40px;
+}
+
+.left-column {
+  flex-grow: 3;
+  text-align: left; /* Align text to the left */
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+.details-content {
+  margin-top: 10px; /* Adjust margin as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.image-section {
+  margin-right: 20px;
+}
+
+
+.book-photo {
+  width: 100px; /* Adjust the size of the book photo */
+  height: auto; /* Maintain aspect ratio */
+  /* margin-right: 20px;  */
+}
+
+/* Additional CSS for book title, author name, and book ID */
+.book-details > * {
+  margin-bottom: 5px; /* Add margin between each detail */
+}
+
+.action {
+  margin-bottom: 20px; /* Add margin between each action group */
+}
+
+.copies-input {
+  width: 100px; /* Adjust the width as needed */
+  height: 25px; /* Adjust the height as needed */
+  margin-right: 10px; /* Add margin between input field and button */
+}
+
+.action-button {
+  width: 150px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+}
+
+/* Additional styling for buttons */
+.action-button:hover {
+  background-color: #d3d3d3; /* Change background color on hover */
+  color: #000; /* Change text color on hover */
+}
